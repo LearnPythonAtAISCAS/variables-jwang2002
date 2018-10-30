@@ -1,4 +1,4 @@
-### Copyright Fabian Blank
+### Copyright Junbo Wang
 def variables():
     ### In this chapter you will learn how to manipulate variables
     ### For this you will need to know how to maipulate strings, numbers
@@ -22,12 +22,14 @@ def variables():
     # Use this knowledge to make Hello World only from the definded variables  
     helloWorld = aString + bString
     # Try multiplying aInt by bInt
-    multiply = 
+    multiply = aInt * bInt
     #Try taking bInt to the power of aInt
-    power =
+    power = aInt ^ bInt
     # How often does aInt fit in bInt
-   fitInto = 
+    fitInto = aInt / bInt
 
 
     #Ignore for now:
     return aInt, bInt, aString, bString, helloWorld, multiply, power, fitInto
+
+
